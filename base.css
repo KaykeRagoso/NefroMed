@@ -12,7 +12,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: #4F7CAC;
 }
 .main {
     display: flex;
@@ -20,20 +20,32 @@ body {
     width: 85%;
 }
 .menu {
+    list-style: none;
     width: 15%;
-    background-color: aqua;
+    background-color: #385E7C;
+    color: white;
+    text-align: center;
     padding: 10px 20px 0px;
 }
+.menu ul li{
+    list-style: none;
+    padding-top: 10px;
+}
+li a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #4F7CAC;
     min-height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .header img{
-        width: 75%;
-        height: 100%;
+    width: 75%;
+    height: 100%;
 }
 .content {
     background-color: white;
@@ -59,6 +71,14 @@ th{
     background-color: black;
     color: white;
 }
+h1,p{
+    text-align: center;
+}
+iframe{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .form-container {
   border: 2px solid #000;
@@ -83,11 +103,10 @@ th{
 }
 
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #4F7CAC;
     min-height: 150px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: white;
 }
 .footer h1{
     text-transform: uppercase;
